@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>kart</h1>
+{% endblock %}
+<form action="cart">
+    list of the item : <input type="text" name="list"><br>
+    search an item : <input type="text" name="search"><br>
+    add item : <input type="text" name="add"><br>
+    remove : <input type="text" name="remove"><br>
+    <input type="submit">
+
+</form>
+
+</body>
+</html>
